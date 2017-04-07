@@ -1,0 +1,168 @@
+.mainCenteredContent {
+	width: 1201px;
+	margin: 0 auto;
+}
+
+.topBar {
+	background-color: #424242;
+	display: flex;
+	height: 34px;
+}
+
+.topBar p {
+	font-family: sans-serif;
+	color: white;
+	font-size: 12px;
+}
+
+.blue {
+	color: #42b8fc;
+	padding: 3px;
+}
+
+.phoneIcon {
+	margin-left: 276px;
+	width: 20px;
+	height: 21px;
+	padding: 4px;
+	margin-top: 2px;
+	margin-right: 8px;
+}
+
+.mainHeader {
+	display: flex;
+	height: 70px;
+	margin-left: 280px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.mainHeader ul {
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+.mainHeader li {
+	float: left;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.mainHeader li a {
+    display: block;
+    color: #3b6da6;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.newVehicles {
+	cursor: pointer;
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: rgba(250,250,250,0.7);
+    font-family: sans-serif;
+    font-size: 12px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.newVehicles:hover .dropdown-content {
+    display: block;
+}
+
+.mainMenu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.flex-item {
+	padding: 5px 20px;
+	color: #414141;
+}
+
+a {
+	text-decoration: none;
+}
+
+input[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: white;
+    background-image: url('img/ico-loupe.png');
+    background-position: 220px 8px; 
+    background-repeat: no-repeat;
+    padding: 8px 17px 8px 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.sliderImage {
+	position: center;
+	height: 479px;
+	width: 1201px;
+
+}
+
+
+.heroHeader {
+	display:flex;
+	background-color: #f0f0f0;
+	height: 479px;
+}
+
+.backgroundLeft {
+	background-image:url('img/header-bg-left.png');
+    background-repeat:no-repeat;
+    overflow: hidden;
+    width: 100vw;
+
+}
+
+.backgroundRight {
+	background-image:url('img/header-bg-right.png');
+    background-repeat:no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    position: relative;
+}
+
+
+.whiteBack {
+	background-color: white;
+	width: 1040px;
+	padding: 20px 80px;
+	margin: 0 auto;
+
+}
+
+.mainContentPar {
+	background-color: #f0f0f0;
+	z-index: 10;
+	display:flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1307px) {
+
+	.mainHeader ul {
+	    margin-left: 15%;
+	}
+}
